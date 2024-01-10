@@ -1,3 +1,5 @@
+import 'package:bounhieng_2cw3_chapter9/StackApp/homestack.dart';
+import 'package:bounhieng_2cw3_chapter9/gridview/home_gridviwe.dart';
 import 'package:bounhieng_2cw3_chapter9/listview/home_listview.dart';
 import 'package:flutter/material.dart';
 
@@ -11,8 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Chapter9',
-      home: listview(),
+      home: homestack(),
     );
   }
 }
